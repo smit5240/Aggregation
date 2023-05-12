@@ -101,6 +101,8 @@ const getproduct = async (req, res) => {
     }
 }
 
+
+
 module.exports = {
     addproduct,
     deleteproduct,

@@ -7,7 +7,7 @@ const Connect = async () => {
         useNewUrlParser: true,
         useUnifiedTopology: true,
       };
-   await mongoose.connect(KEY , connectionParams).then( (res) => {
+   await mongoose.connect(`${KEY}` ,connectionParams).then( (res) => {
         console.log("Connection Successfull");
     }).catch( (error) => {
         console.log("EROR -->" , error);

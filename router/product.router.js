@@ -14,4 +14,5 @@ router.get("/getproduct" ,fatchuser ,  productcontroller.getproduct);
 
 
 
+
 module.exports = router;

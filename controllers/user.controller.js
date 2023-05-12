@@ -109,6 +109,7 @@ const getuser = async (req, res) => {
     }
 
 }
+
 module.exports = {
     postuser,
     loginuser,
